@@ -2,6 +2,11 @@
 
 This is an example of how you can perform a search for a Mercadona product.
 
+## Why?
+
+Mercadona api itself don´t have a public method for searching products (or i did not saw it).
+With this method, you can search for products and have returned their id, that you can use to search with it more information about the product in their official api.
+
 ## Try it
 
 To try this, you should download or open a CodeSpace on this repo.
@@ -24,7 +29,7 @@ or with yarn
 yarn
 ~~~
 
-Then, you can run `{*pnpm/npm/yarn*} start`, this will show you the products that match the query 'patatas fritas'(fries).
+Then, you can run `{pnpm/npm/yarn} start`, this will show you the products that match the query 'patatas fritas' (fries).
 
 If you go to `index.js` file, you can change this query in the `queryArray` constant, just change the content and introduce what you want to search.
 
@@ -34,4 +39,4 @@ If you go to `index.js` file, you can change this query in the `queryArray` cons
 
 ### DevDependencies
 
-All the devDependencies are the linter config.The linter used is Airbnb
+All the devDependencies are the linter config. The linter used is Airbnb
